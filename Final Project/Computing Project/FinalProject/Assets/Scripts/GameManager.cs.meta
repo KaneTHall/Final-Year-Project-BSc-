@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a6d5ee25a72081d419c9d942b58b884f
+timeCreated: 1485646540
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - DPrefab: {fileID: 114000011786143674, guid: c0e07aaf2e20e4249b2f4ab50e6acfe6,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

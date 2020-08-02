@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000013262729288}
+  m_IsPrefabParent: 1
+--- !u!1 &1000013262729288
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4000013594945648}
+  - component: {fileID: 114000011786143674}
+  m_Layer: 0
+  m_Name: Dungeon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000013594945648
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013262729288}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 13.672842, y: 14.009304, z: 8.580839}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114000011786143674
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013262729288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb89d3b55f45ef54caf4f24a8b984f18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stepDelay: 0.01
+  tilePrefab: {fileID: 114000010788338732, guid: 3286db3c65b91cc40a97eaecf6c9eedd,
+    type: 2}
+  Vector:
+    x: 50
+    z: 50
+  NumberOfRooms: 5
+  wPrefab: {fileID: 114000013338447008, guid: ecb3f4c97f86fa7478972db1b591f09e, type: 2}
+  wPrefab2: {fileID: 114464944892968328, guid: 8a074350561591040a87bd2e86cb496c, type: 2}
+  wPrefab3: {fileID: 114277286629454456, guid: 0299843079f00624cb74df7c4f509b24, type: 2}
+  wPrefab4: {fileID: 114250734753981176, guid: 44b5f1405134b134c847f4ad600347da, type: 2}
+  playerPrefab: {fileID: 114000013905821804, guid: 26f63e46d9b363948bda18d3fb0450a8,
+    type: 2}
+  enemy1Prefab: {fileID: 114000011160729528, guid: c5bda366a6b8a55408ea520967e7a3bd,
+    type: 2}
+  enemy2Prefab: {fileID: 114000011160729528, guid: c5bda366a6b8a55408ea520967e7a3bd,
+    type: 2}
+  enemy3Prefab: {fileID: 0}
+  enemy4Prefab: {fileID: 0}
+  goalPrefab: {fileID: 114000012541351296, guid: 69295428a56ef0041997fb273044ba18,
+    type: 2}
+  powerPrefab: {fileID: 114137560402197888, guid: f9439c9b4b94495408f15652f97ca6f7,
+    type: 2}
+  spawnG: 0
